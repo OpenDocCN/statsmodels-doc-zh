@@ -1,10 +1,10 @@
 ## 这是什么？
 
-这是由ApacheCN翻译的Statsmodels的中文文档
+这是由 ApacheCN 翻译的 Statsmodels 的中文文档
 
-## Statsmodels是什么？
+## Statsmodels 是什么？
 
-Statsmodels是一个Python包，为统计计算的scipy提供补充，包括描述性统计和统计模型的估计和推断。
+Statsmodels 是一个 Python 包，为统计计算的 scipy 提供补充，包括描述性统计和统计模型的估计和推断。
 
 ### 英文文档
 
@@ -34,30 +34,30 @@ Recent improvements are highlighted in the release notes
     - 递归最小二乘法
  - 具有混合效应和方差分量的混合线性模型
  - GLM：支持所有单参数指数族分布的广义线性模型
- - 用于二项式和泊松的贝叶斯混合GLM
+ - 用于二项式和泊松的贝叶斯混合 GLM
  - GEE：单向聚类或纵向数据的广义估计方程
  - 离散模型：
-    - Logit和Probit
-    - 多项logit（MNLogit）
-    - 泊松和广义Poisson回归
+    - Logit 和 Probit
+    - 多项 logit（MNLogit）
+    - 泊松和广义 Poisson 回归
     - 负二项式回归
     - 零膨胀计数模型
- - RLM：强大的线性模型，支持多个M估计器。
+ - RLM：强大的线性模型，支持多个 M 估计器。
  - 时间序列分析：时间序列分析模型
-    - 完成StateSpace建模框架
-        - 季节性ARIMA和ARIMAX模型
-        - VARMA和VARMAX型号
+    - 完成 StateSpace 建模框架
+        - 季节性 ARIMA 和 ARIMAX 模型
+        - VARMA 和 VARMAX 型号
         - 动态因子模型
         - 未观察到的组件模型
     - 马尔可夫切换模型（MSAR），也称为隐马尔可夫模型（HMM）
     - 单变量时间序列分析：AR，ARIMA
-    - 矢量自回归模型，VAR和结构VAR
+    - 矢量自回归模型，VAR 和结构 VAR
     - 矢量误差修正模型，VECM
     - 指数平滑，Holt-Winters
     - 时间序列的假设检验：单位根，协整等
     - 时间序列分析的描述性统计和过程模型
  - 生存分析：
-    - 比例风险回归（Cox模型）
+    - 比例风险回归（Cox 模型）
     - 幸存者函数估计（Kaplan-Meier）
     - 累积发生率函数估计
  - 多因素：
@@ -72,26 +72,26 @@ Recent improvements are highlighted in the release notes
     - 拟合优度和正态性测试
     - 用于多个测试的功能
     - 各种额外的统计测试
- - MICE估算，秩序统计回归和高斯插补
+ - MICE 估算，秩序统计回归和高斯插补
  - 调解分析
  - 图形包括用于数据和模型结果的可视分析的绘图功能
  - I / O
-    - 用于读取Stata .dta文件的工具，但是pandas具有更新版本
-    - 表输出为ascii，latex和html
+    - 用于读取 Stata .dta 文件的工具，但是 pandas 具有更新版本
+    - 表输出为 ascii，latex 和 html
  - Miscellaneous models(各种各样的模型）
- - Sandbox：statsmodels包含一个沙箱文件夹，其中的代码处于开发和测试的各个阶段，不被视为“生产就绪”。这包括其中之一
+ - Sandbox：statsmodels 包含一个沙箱文件夹，其中的代码处于开发和测试的各个阶段，不被视为“生产就绪”。这包括其中之一
     - 广义矩量法（GMM）估计量
     - 核回归
-    - scipy.stats.distributions的各种扩展
+    - scipy.stats.distributions 的各种扩展
     - 面板数据模型
     - 信息理论措施
 
-## ApacheCN是什么？
+## ApacheCN 是什么？
 
-* 主页：[apachecn.org](http://www.apachecn.org)
+* 主页：[flygon.net](http://www.flygon.net)
 * Github：[@ApacheCN](https://github.com/apachecn)
-* 社区：[community.apachecn.org](http://community.apachecn.org)
-* 知识库：[cwiki.apachecn.org](http://cwiki.apachecn.org/)
+* 社区：[community.flygon.net](http://community.flygon.net)
+* 知识库：[cwiki.flygon.net](http://cwiki.flygon.net/)
 * 自媒体平台：
     * [微博：@ApacheCN](https://weibo.com/u/6326715527)
     * [知乎：@ApacheCN](https://www.zhihu.com/people/apachecn)
@@ -102,7 +102,7 @@ Recent improvements are highlighted in the release notes
 ## 参与翻译 & 发现错误
 
     1. 在 github 上 fork 该 repository.
-    2. 翻译 docs/zh/source 或者根目录 下面的 rst或txt 文件即可, 例如, gettingstarted.rst.
+    2. 翻译 docs/zh/source 或者根目录 下面的 rst 或 txt 文件即可, 例如, gettingstarted.rst.
     3. 然后, 在你的 github 发起 New pull request 请求.
 
 ## 角色分配
@@ -114,7 +114,7 @@ Recent improvements are highlighted in the release notes
 
 有兴趣参与的朋友, 可以看看最后的联系方式.
 
-## Statsmodels负责人
+## Statsmodels 负责人
 * [@FontTian](https://github.com/FontTian)（Font Tian）
 
 ## 贡献者
@@ -127,16 +127,11 @@ Recent improvements are highlighted in the release notes
 * [@FontTian](https://github.com/FontTian)（Font Tian）
 
 
-## 联系方式
-有任何建议反馈, 或想参与文档翻译, 麻烦联系下面的企鹅:
-
-* 企鹅: 2404846224((FontTian)
-
 ## 其它中文文档
 
 1. [sklearn 中文文档](https://github.com/apachecn/scikit-learn-doc-zh)
 2. [pytorch 0.3 中文文档](https://github.com/apachecn/pytorch-doc-zh)
-3. [TensorFlow R1.2 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=10030122)
+3. [TensorFlow R1.2 中文文档](http://cwiki.flygon.net/pages/viewpage.action?pageId=10030122)
 4. [xgboost 中文文档](https://github.com/apachecn/xgboost-doc-zh)
 5. [lightgbm 中文文档](https://github.com/apachecn/lightgbm-doc-zh)
 6. [fasttext 中文文档](https://github.com/apachecn/fasttext-doc-zh)
